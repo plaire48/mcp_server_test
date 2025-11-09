@@ -1,0 +1,15 @@
+{
+  "name": "weather",
+  "displayName": "날씨 조회",
+  "port": null,
+  "env": {
+    "OPEN_WEATHER_API_KEY": "",
+    "WEATHER_CITY_DEFAULT": "Seoul",
+    "WEATHER_UNITS": "metric",
+    "LOG_LEVEL": "INFO"
+  },
+  "version": "0.1.0",
+  "description": "도시별 현재 날씨와 간단 예보를 제공하는 Activity"
+}
+
+

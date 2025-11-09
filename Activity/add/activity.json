@@ -1,0 +1,11 @@
+{
+  "name": "add",
+  "displayName": "기본 계산기",
+  "port": null,
+  "env": {
+    "LOG_LEVEL": "INFO",
+    "NUMBER_PRECISION": "4"
+  },
+  "version": "0.1.0",
+  "description": "덧셈/곱셈 기본 계산기 Activity"
+}

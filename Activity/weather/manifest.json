@@ -1,0 +1,18 @@
+{
+  "id": "weather",
+  "name": "날씨 조회",
+  "package_description": "도시별 현재 날씨와 간단 예보를 제공합니다.",
+  "tool_source_file": "main.py",
+  "config_vars": [
+    { "name": "OPEN_WEATHER_API_KEY", "label": "OpenWeather API Key" },
+    { "name": "WEATHER_CITY_DEFAULT", "label": "기본 도시" },
+    { "name": "WEATHER_UNITS", "label": "단위(metric/imperial)" },
+    { "name": "LOG_LEVEL", "label": "로그 레벨" }
+  ],
+  "tools": [
+    { "function_name": "current_weather", "description": "지정한 도시의 현재 날씨를 조회합니다.", "enabled": true },
+    { "function_name": "simple_forecast", "description": "지정한 도시의 간단 예보를 조회합니다.", "enabled": true }
+  ]
+}
+
+

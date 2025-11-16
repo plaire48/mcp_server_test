@@ -1,11 +1,31 @@
 {
-  "name": "add",
-  "displayName": "기본 계산기",
-  "port": null,
-  "env": {
-    "LOG_LEVEL": "INFO",
-    "NUMBER_PRECISION": "4"
-  },
+  "id": "add",
+  "name": "기본 계산기",
   "version": "0.1.0",
-  "description": "덧셈/곱셈 기본 계산기 Activity"
+  "description": "덧셈/곱셈 기본 계산기 Activity",
+  "manifest": {
+    "tool_source_file": "main.py",
+    "config_vars": [
+      {
+        "name": "LOG_LEVEL",
+        "label": "계산기 로그 레벨"
+      },
+      {
+        "name": "NUMBER_PRECISION",
+        "label": "소수점 자리수"
+      }
+    ],
+    "tools": [
+      {
+        "function_name": "add",
+        "description": "두 숫자를 더합니다.",
+        "enabled": false
+      },
+      {
+        "function_name": "multiply",
+        "description": "두 숫자를 곱합니다. 호예",
+        "enabled": true
+      }
+    ]
+  }
 }

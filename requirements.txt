@@ -6,4 +6,3 @@ psutil>=5.9,<6
 virtualenv>=20.25,<21
 fastmcp
 requests
-atlassian-python-api
